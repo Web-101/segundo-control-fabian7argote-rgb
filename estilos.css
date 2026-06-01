@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6faf9;
+    color: #071a12;
+}
+header {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 45px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav img {
+    width: 15px;
+    height: 18px;
+    margin-right: 12px;
+}
+header h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin-left: auto;
+}
+header a {
+    text-decoration: none;
+    color: #071a12;
+    font-size: 13px;
+}
+.bottonlupa {
+    margin-left: 35px;
+    width: 39px;
+    height: 38px;
+    border: 1px solid #dce9e2;
+    border-radius: 9px;
+    background-color: #eef7f2;
+}
+.bottonlupa img {
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+}
+#Contenedor1 {
+    max-width: 1050px;
+    margin: 65px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+#Contenedor1 > img {
+    width: 520px;
+    height: 275px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+#Contenedor2 {
+    width: 480px;
+}
+#Contenedor2 h2 {
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 850;
+    margin-bottom: 18px;
+}
+#Contenedor2 p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+#Contenedor2 button {
+    width: 420px;
+    padding: 16px;
+    background-color: #35dd78;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+#Contenedor-Mascotas {
+    max-width: 1050px;
+    margin: 65px auto 0;
+}
+
+#Contenedor-Mascotas h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.Mascotas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.TarjetaMascota img {
+    width: 184px;
+    height: 185px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.TarjetaMascota h3 {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.TarjetaMascota p {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #368c5d;
+}
+.MissionMascota {
+    max-width: 1050px;
+    margin: 65px auto 0;
+}
+
+.MissionMascota h2 {
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.MissionMascota p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+footer {
+    max-width: 1050px;
+    margin: 70px auto 25px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.footer a {
+    color: #368c5d;
+    text-decoration: none;
+}
+
+.RS {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 25px;
+}
+
+.RS img {
+    width: 18px;
+    height: 18px;
+}
+
+footer p {
+    color: #368c5d;
+    font-size: 14px;
+}
